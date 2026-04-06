@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DON'T LOOK</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="background-glow glow1"></div>
+  <div class="background-glow glow2"></div>
+
+  <div class="game-container">
+    <header class="top-bar">
+      <h1>DON'T LOOK</h1>
+      <p class="subtitle">A game about moral choice and strategic ignorance</p>
+    </header>
+
+    <section class="stats">
+      <div class="stat-box">
+        <span class="stat-label">Round</span>
+        <span id="roundNumber" class="stat-value">1 / 6</span>
+      </div>
+      <div class="stat-box">
+        <span class="stat-label">Your Score</span>
+        <span id="yourScore" class="stat-value">0</span>
+      </div>
+      <div class="stat-box">
+        <span class="stat-label">Other Person</span>
+        <span id="otherScore" class="stat-value">0</span>
+      </div>
+    </section>
+
+    <main class="card">
+      <div id="screen">
+        <h2>Welcome</h2>
+        <p>
+          In this game, you will make choices that affect both you and another person.
+          Sometimes you can see the full result. Sometimes you can choose not to look.
+        </p>
+        <p>
+          Try to play honestly. At the end, the game will show what your choices may mean.
+        </p>
+        <div class="button-group">
+          <button id="startBtn" class="main-btn">Start Game</button>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
